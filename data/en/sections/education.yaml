@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bachelor's degree in computer systems
+  icon: fa-microscope
+  timeframe: 2016-2021
+  institution:
+    name: Instituto Politecnico Nacional ESCOM
+    url: "https://www.escom.ipn.mx/"
+  grade: 
+    achieved: 8.2
+    outOf: 10

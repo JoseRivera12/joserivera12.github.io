@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python Development
+  icon: "/images/sections/skills/go.png"
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://www.python.org/"
+
+- name: JavaScript Development
+  icon: "/images/sections/skills/go.png"
+  summary: "Used as a secondary language capable of writing maintainable and scalable code primarily for web development."
+  url: "https://www.javascript.com/"
+
+- name: C Development
+  icon: "/images/sections/skills/go.png"
+  summary: "I am able to write and read code done in c at an intermediate level."
+
+- name: Cloud Computing
+  icon: "/images/sections/skills/cloud.png"
+  summary: "I have worked with GCP and Azure clouds as well as webdock and DigitalOcean."
+
+- name: Django & ExpressJs
+  icon: "/images/sections/skills/kubernetes.png"
+  summary: "I am able to write maintainable and scalable web applications."
+
+- name: React
+  icon: "/images/sections/skills/kubernetes.png"
+  summary: "I am able to build applications with the use of maintainable hooks using technologies such as graphql."

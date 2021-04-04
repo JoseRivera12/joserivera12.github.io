@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Ixtlan.Dev.
+    url: "https://https://ixtlan.dev/"
+    location: CDMX, Mexico
+    # company overview
+    overview: Company dedicated to the development of web systems mainly
+  positions:
+  - designation: Full Stack Developer
+    start: Ago 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Currently
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Connect to the servers of a third party company through a site to site vpn connection to be able to consume their API.
+    - Collaborate in the development of a web application for the granting of credit. 
+    - Deploy web system using Django and PostgreSQL.
+
+- company:
+    name: NeetSec International.
+    url: "https://neetsec.com"
+    location: Ontario,Canada
+    overview: NeetSec is a company specialized in cybersecurity and cryptocurrencies that seeks to guarantee the security of our client's data as for blockchain solutions and cutting-edge cryptographic technologies.
+  positions:
+  - designation: Software Engineer
+    start: Oct 2018
+    end: Ago 2020
+    responsibilities:
+    - Document code.
+    - Implementing a decentralized peer to peer database with orbit db.
+    - Manage company servers to launch new releases.
+    - Implement page in react js to consume orbit db database.
+    - Create services for ipfs management inside servers and raspberry pi.

@@ -1,0 +1,55 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a software developer, proactive, generator of ideas for continuous improvement, I have worked with various stacks, experience mainly in backend. I am improving my skills with data structures.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/JoseRivera12"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/joserivera601"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/JosearmandoRr"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "josearmando1470@gmail.com"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 85
+  color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow
+- name: Fast Learner
+  percentage: 95
+  color: green
+- name: Problem Solving
+  percentage: 70
+  color: orange
+- name: Comunication
+  percentage: 80
+  color: pink

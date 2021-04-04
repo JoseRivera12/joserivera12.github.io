@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Azure Fundamentals
+  timeline: "March 2021"
+  organization:
+    name: "Microsoft Certified: Azure Fundamentals"
+    url: https://docs.microsoft.com/en-us/learn/certifications/exams/az-900
+  courseOverview: This course helped me to understand basic concepts about the cloud as well as the multiple tools that azure has in general terms, to know the savings of having a cloud infrastructure and how to avoid unnecessary costs.
+  certificateURL: "https://www.credly.com/badges/1513ab9a-77f1-4192-a12d-413ae1d1bb36?source=linked_in_profile"
+
+- name: QwikLabs
+  timeline: "Jun 2020 - Jan 2021"
+  organization:
+    name: Cloud Quests
+    url: https://www.qwiklabs.com
+  courseOverview: "Set Up and Configure a Cloud Environment in Google Cloud, Perform Foundational Infrastructure Tasks in Google Cloud, Create and Manage Cloud Resources"
+  certificateURL: "https://www.qwiklabs.com/public_profiles/585d1715-dd2a-4118-8417-a0d427d06faa"
